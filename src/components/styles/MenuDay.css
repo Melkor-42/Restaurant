@@ -1,0 +1,37 @@
+/* MenuDay.css */
+.menu-day-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.day {
+  color:#ffb600;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.food-row {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  color: #353535;
+  font-size: 16px;  
+}
+
+.food-name {
+  flex: 1;
+  text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.food-price {  
+  margin-left: 24px;
+  font-weight: bold;
+}
+
