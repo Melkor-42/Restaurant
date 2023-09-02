@@ -1,0 +1,55 @@
+{
+  "menuInfo": {
+    "menuDate":"28. August - 1. September 2023",
+    "menuInfoText":"Preferovaný čas objednávky na menu je do 10:00 hod."
+  },
+  "dailyMenu": {
+    "Monday": [
+      { "name": "Frankfurtská s párkom" },
+      { "name": "Hovädzí vývar s cestovinou a zeleninou" },
+      { "name": "Bravčová panenka v slaninke, hranolky, zeleninový šalát", "price": "7,20€"},
+      { "name": "Vyprážané bravčové karé, zemiaková kaša, zeleninový šalát", "price": "5,90€"},
+      { "name": "Zapekané kuracie prsia s broskyňou a syrom, dusená ryža, zeleninový šalát", "price": "5,90€"},
+      { "name": "Bravčové kocky na cesnaku, tarhoňa, kyslá uhorka", "price": "5,70€" },
+      { "name": "Pizza Gazdovská", "price": "5,70€" }
+    ],
+    "Tuesday": [
+      { "name": "Štátny sviatok – Zatvorené" }
+    ],
+    "Wednesday": [
+      { "name": "Z fazuľových strukov na kyslo" },
+      { "name": "Hovädzí vývar s cestovinou a zeleninou" },
+      { "name": "Bravčová panenka v slaninke, hranolky, zeleninový šalát", "price": "7,20€"},
+      { "name": "Vyprážaný syr, varené zemiaky, tatárska omáčka", "price": "5,90€"},
+      { "name": "Pražská bravčová pečienka, dusená ryža, zeleninový šalát", "price": "5,90€"},
+      { "name": "Cestoviny s kuracím mäsom v ružovej omáčke", "price": "5,70€" },
+      { "name": "Slivkové gule s maslom", "price": "5,70€" }
+    ],
+    "Thursday": [
+      { "name": "Mrkvová s cícerom" },
+      { "name": "Hovädzí vývar s cestovinou a zeleninou" },
+      { "name": "Bravčová panenka v slaninke, hranolky, zeleninový šalát", "price": "7,20€"},
+      { "name": "Kuracia roláda na hráškovom pyré, hranolky, zeleninový šalát", "price": "5,90€"},
+      { "name": "Francúzské zemiaky s údeninou, zeleninový šalát", "price": "5,90€"},
+      { "name": "Maďarský hovädzí guľáš, domáce kysnuté knedle", "price": "5,70€" },
+      { "name": "Zeleninový šalát s vyprážaným hermelínom", "price": "5,70€" }
+    ],
+    "Friday": [
+      { "name": "Štátny sviatok – Zatvorené" }
+    ],
+    "Saturday": [
+      { "name": "Tešime sa na nový týždeň!" }
+    ],
+    "Sunday": [
+      { "name": "Tešime sa na nový týždeň!" }
+    ]
+  },
+  "weeklyMenu": {
+    "Ponuka na celý týždeň": [
+      {"name": "TEXAS burger / MEXICO burger, hranolky", "price": "7,50€"},
+      {"name": "Vyprážaný rezeň / bravčové karé / kuracie prsia / var.zemiaky, zel.šalát", "price": "6,50€"},
+      {"name": "Domáce zemiakovo-bryndzové pirohy so slaninou a kyslou smotanou", "price": "6,00€"},
+      {"name": "Zeleninový šalát, dressing, bagetka / rôzne druhy", "price": "6,50€"}
+    ]
+  }
+}

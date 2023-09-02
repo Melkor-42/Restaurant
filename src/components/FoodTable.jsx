@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './styles/FoodTable.css';
 import MenuDay from './MenuDay';
 import MenuEveryDay from './MenuEveryDay';
-import MenuInfo from './MenuInfo';
+import MenuInfo from './WeekMenuComponents/MenuInfo';
 import { menuInfoProps as defaultMenuInfoProps, weekMenu as defaultWeekMenu, everyDayMenu as defaultEveryDayMenu } from '../menuData';
 
 

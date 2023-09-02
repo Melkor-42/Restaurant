@@ -1,0 +1,13 @@
+.week-menu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    }
+
+    /* .Lubinka{
+        display: flex;
+        width:100%;
+        background-color: #000000;
+    } */

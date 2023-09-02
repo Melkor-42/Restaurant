@@ -1,0 +1,31 @@
+.days-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .day {
+    /* background-color: #232323; */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffcc4d;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0;
+    border-radius: 10px;
+  }
+
+  /* .day:focus {
+    text-decoration: underline;
+  } */
+
+  .day.selected {
+    background-color: #ffcc4d;
+    color: #232323;
+}

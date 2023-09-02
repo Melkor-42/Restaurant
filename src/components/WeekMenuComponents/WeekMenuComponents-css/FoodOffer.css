@@ -1,0 +1,39 @@
+.food-offer-container {
+  /* display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin: 0 auto; */
+}
+
+.title {
+  color:#ffcc4d;
+  font-size: 24px;
+  text-align: center;
+  margin: 10px;
+  text-shadow:
+    -1px -1px 0 #515151,
+    1px -1px 0 #515151,
+    -1px 1px 0 #515151,
+    1px 1px 0 #515151;    
+}
+
+.food-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #353535;
+  width: 100%; 
+  padding: 4px 0;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.food-name{
+  font-size: 16px;
+  text-align: left;
+}
+
+.food-price {  
+  font-weight: bold;
+  padding-left: 16px;
+}

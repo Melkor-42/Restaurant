@@ -1,5 +1,5 @@
 /* MenuDay.css */
-.menu-day-container {
+/* .menu-day-container {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -7,7 +7,7 @@
 
 
 .day {
-  /* color:#ffb600; */
+  color:#ffb600;
   color:#ffcc4d;
   text-shadow:
     -1px -1px 0 #0000008a,
@@ -34,5 +34,5 @@
 .food-price {  
   margin-left: 24px;
   font-weight: bold;
-}
+} */
 
