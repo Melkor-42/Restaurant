@@ -12,10 +12,10 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-    font-size: 16px;
-    color: #ffcc4d;
+    font-size: 24px;
+    color: #884A39;
     font-weight: bold;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Amatic SC', cursive;
     text-decoration: none;
     padding: 5px 10px;
     margin: 0;
@@ -27,6 +27,8 @@
   } */
 
   .day.selected {
-    background-color: #ffcc4d;
-    color: #232323;
+    /* background-color: #ffcc4d; */
+    background-color: #884A39;
+    /* color: #232323; */
+    color: #ffffff;
 }

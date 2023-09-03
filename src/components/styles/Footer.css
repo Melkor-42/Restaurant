@@ -1,13 +1,14 @@
 
 .footer {
-    background-color: #232323;
-    color: white;
-    padding: 20px;
+    /* background-color: #232323; */
+    background-color: #ffd6a0b2;
+    color: #884A39;
+    padding: 8px;
     text-align: center;
   }
   
   .contact-info {
-    margin-top: 20px;
+    margin-top: 16px;
   }
 
   .contact-info a {

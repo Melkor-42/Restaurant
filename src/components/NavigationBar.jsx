@@ -10,7 +10,7 @@ const NavigationBar = ({ selectedOption }) => {
   return (
     <nav className='navigation-bar'>
       <div className='nav-options'>
-        <div><Link to="/" className={currentPath === "/" ? "selected" : ""}>Menu</Link></div>
+        <div><Link to="/" className={currentPath === "/" ? "selected" : ""}>MENU</Link></div>
         {/* <div><Link to="/about" className={currentPath === "/about" ? "selected" : ""}>About</Link></div> */}
       </div>
     </nav>

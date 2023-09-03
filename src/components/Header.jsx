@@ -4,9 +4,10 @@ const Header = () => {
 
     return (
       <div className="Header">
-        {/* <NavigationBar selectedOption={selectedOption}/> */}
         <div className='header-content'>
-          <h1 className="header-text">Denné Menu</h1>
+          <div className="text-background">
+            <p className="header-text">DENNÉ MENU</p>
+          </div>          
         </div>
       </div>
     );

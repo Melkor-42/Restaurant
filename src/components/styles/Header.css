@@ -1,8 +1,9 @@
 .Header {
     position:relative;
     width: 100%;
-    height: 40vh; 
-    background-image: url('../cooking_background4.jpg');
+    height: 30vh; 
+    /* background-image: url('../cooking_background4.jpg'); */
+    background-image: url('../bright_food_bg.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -14,15 +15,24 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.481);
   }
   
+  /* .text-background{
+    background-color: #c082615c;    
+    border-radius: 50px;
+  } */
+
   .header-text {
-    text-align: center;
-    /* color: #ffb600; */
-    color: #ffcc4d;
-    font-family: 'Arial', sans-serif;
-    font-size: 56px;
+    text-align: center;    
+    /* color: #ffcc4d; */
+    /* background-color: #c0826150; */
+    /* color: #9A3B3B; */
+    color: #884A39;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 580;
+    font-size: 80px;
+    margin:20px 20px;
   }
 
 
