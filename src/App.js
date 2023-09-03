@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import FoodTable from './components/FoodTable';
 import Footer from './components/Footer';
 import NavigationBar from './components/NavigationBar';
 import About from './components/About';
@@ -14,14 +13,17 @@ function App() {
   return (
     <div className="App">
        <Router>
+
         <NavigationBar />
         <Header/>
-        <Routes>
-          {/* <Route exact path="/" element={<FoodTable/>} /> */}
-          <Route exact path="/" element={<WeekMenu/>} />
-          <Route path="/about" element={<About/>} />
-        </Routes>
+        <div className="main-content">
+          <Routes>
+            <Route exact path="/" element={<WeekMenu/>} />
+            <Route path="/about" element={<About/>} />
+          </Routes>
+        </div>
         <Footer />
+
       </Router>
     </div>
   );

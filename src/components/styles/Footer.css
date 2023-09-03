@@ -1,5 +1,5 @@
 
-footer {
+.footer {
     background-color: #232323;
     color: white;
     padding: 20px;
@@ -9,4 +9,13 @@ footer {
   .contact-info {
     margin-top: 20px;
   }
+
+  .contact-info a {
+    color: #007BFF; /* Change the color to a visually distinct one */
+    text-decoration: underline; /* Underline the links */
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+  }
   
+  .contact-info a:hover {
+    color: #0056b3; /* Change the color on hover for a visual effect */
+  }

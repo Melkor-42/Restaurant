@@ -49,12 +49,9 @@ const WeekMenu = () => {
 
   return (
     <div className="week-menu">
+      
       <MenuInfo menuDate={menuInfo.menuDate} menuInfoText={menuInfo.menuInfoText}/>
-      <div className="Lubinka">
-        <DaysBar selectedDay={selectedDay} setSelectedDay={setSelectedDay}/>      
-      </div>
-      {/* <DaysBar selectedDay={selectedDay} setSelectedDay={setSelectedDay}/>       */}
-
+      <DaysBar selectedDay={selectedDay} setSelectedDay={setSelectedDay}/>      
       <FoodOffer title={selectedDay} data={dailyMenu[selectedDay]}/>
 
       {/* Stable Menu for all days in week. */}
