@@ -1,16 +1,26 @@
 import './styles/Header.css';
+import NavigationBar from './NavigationBar';
+import {useLocation } from 'react-router-dom';
 
 const Header = () => {
 
-    return (
-      <div className="Header">
-        <div className='header-content'>
-          <div className="text-background">
+
+  const location = useLocation();
+  const currentPath = location.pathname;
+
+  return (
+    <div className="Header">
+      <NavigationBar />
+      <div className='header-content'>
+        {currentPath === "/" ? ( 
             <p className="header-text">DENNÉ MENU</p>
-          </div>          
-        </div>
+          ) :(
+            <p className="header-text">Reštaurácia M</p>
+          )
+        }
       </div>
-    );
-  };
+    </div>
+  );
+};
   
 export default Header;

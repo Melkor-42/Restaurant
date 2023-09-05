@@ -42,7 +42,7 @@ const WeekMenu = () => {
     fetchData();
   }, []);
 
-
+  // TODO: Add loading animation.
   if (isLoading) {
     return <div>Loading...</div>;
   }
