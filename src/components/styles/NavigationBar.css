@@ -1,5 +1,6 @@
   .navigation-bar {
-    position: fixed;
+    /* position: fixed; */
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -31,7 +32,6 @@
     text-decoration: underline;
   }
   
-  /* Style for the selected option */
   .nav-options a.selected {
     text-decoration: underline;
   }
