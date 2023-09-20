@@ -63,5 +63,3 @@ const WeekMenu = () => {
 };
 
 export default WeekMenu;
-
-

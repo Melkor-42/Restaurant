@@ -24,8 +24,6 @@ const FoodOffer = ({title, data}) => {
         case 'Sunday':
             title = 'Nedeľa';
             break;
-        default:
-          console.log("wtf is this day?")
       }
       
 
